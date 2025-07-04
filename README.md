@@ -1,26 +1,26 @@
-# 💊 Medicine Inventory Management System (Java + MySQL)
+#  Medicine Inventory Management System (Java + MySQL)
 A basic **Java OOP project** for managing medicine stock, built with **Java**, **Swing**, and **MySQL**. Designed for academic learning and small-scale use
 ---
 
-## 🧠 Features
+##  Features
 
-- 👥 **Role-based login**: Buyers and Sellers
-- 📦 **Stock management**: Add, view, and update medicines
-- 🛒 **Purchase system**: Buy medicines with quantity checks
-- 💽 **Transaction records**: Logged for every sale or addition
-- 🖥️ **GUI Interface**: Built with Java Swing
-- 🛢️ **Database Integration**: MySQL + JDBC
+-  **Role-based login**: Buyers and Sellers
+-  **Stock management**: Add, view, and update medicines
+-  **Purchase system**: Buy medicines with quantity checks
+-  **Transaction records**: Logged for every sale or addition
+-  **GUI Interface**: Built with Java Swing
+-  **Database Integration**: MySQL + JDBC
 
 ---
 
-## 🔐 User Roles
+##  User Roles
 
-### 🏭 Seller
+###  Seller
 - Adds medicines (min 10,000 and max 20,000 units)
 - Input includes name, quantity, manufacture and expiry dates
 - Adds records to both stock and transaction logs
 
-### 🛒 Buyer
+###  Buyer
 - Can view available stock
 - Can purchase up to 10 units of a medicine
 - Purchase gets recorded in the transaction table
@@ -28,7 +28,7 @@ A basic **Java OOP project** for managing medicine stock, built with **Java**, *
 
 ---
 
-## 🗃️ Database Tables
+##  Database Tables
 
 1. `accounts` — stores user login credentials  
    **Fields**: `username`, `password`, `role`
@@ -41,7 +41,7 @@ A basic **Java OOP project** for managing medicine stock, built with **Java**, *
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Java** (OOP)
 - **Java Swing** (GUI)
@@ -50,7 +50,7 @@ A basic **Java OOP project** for managing medicine stock, built with **Java**, *
 
 ---
 
-## 🖥️ How to Run
+##  How to Run
 
 1. **Clone the repository**
    ```bash
